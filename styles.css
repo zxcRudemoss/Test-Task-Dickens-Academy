@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 11px 290px 11px 290px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.logo {
+    width: 48.09px;
+    height: 48.23px;
+}
+
+nav {
+    margin-left: auto;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #343434;
+    text-wrap: nowrap;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: #003366;
+    text-wrap: nowrap;
+}
+
+.loginButton {
+    cursor: pointer;
+    color: #ffffff ;
+    border: 0px;
+    background-color: #003366;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 58px;
+    border-radius: 14px;
+    margin-left: 32px;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/* Hero Section */
+
+.hero {
+    justify-content: space-between;
+    display: flex;
+    padding-left: 290px;
+    padding-top: 50px;
+    padding-right: 290px;
+    gap: 20px;
+}
+
+.heroTextContainer {
+    font-family: 'Poppins', sans-serif;
+    background-color: #003366;
+    width: 890px;
+    padding-top: 100px;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-bottom: 100px   ;
+    border-radius: 20px;
+}
+
+.heroTextContainer h1 {
+    color: #FBFBFB;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 57.6px;
+    margin-bottom: 16px;
+}
+
+.heroTextContainer p {
+    font-family: 'Roboto', sans-serif;
+    color: #FBFBFB;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 40px;
+}
+
+.exploreButton {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #003366;
+    background-color: #FBFBFB;
+    cursor: pointer;
+    border-radius: 14px;
+    border: 14px;
+    padding: 14px 20px;
+}
+
+.heroImage {
+    display: flex;
+    width: 433px;
+    height: 520px;
+}

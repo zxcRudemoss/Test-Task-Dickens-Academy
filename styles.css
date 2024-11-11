@@ -69,6 +69,7 @@ nav ul li a:hover {
     padding-left: 290px;
     padding-top: 50px;
     padding-right: 290px;
+    padding-bottom: 50px;
     gap: 20px;
 }
 
@@ -117,4 +118,74 @@ nav ul li a:hover {
     display: flex;
     width: 433px;
     height: 520px;
+}
+
+/* Advantages Section */
+
+.advantagesSection {
+    background-color: #E0E7EF;
+    padding: 70px 290px;
+}
+
+.advantagesContainer h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 63px;
+    color: #003366;
+    background-color: #FBFBFB;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
+.advContainers {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+
+.container {
+    text-align: center;
+    background-color: #FBFBFB;
+    width: 425px;
+    height: 275px;
+    border-radius: 14px;
+    padding: 30px;
+}
+
+.container img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 12px;
+}
+
+.container h3 {
+    color: #003366;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 12px;
+}
+
+.container p {
+    color: #343434;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+/* Section About Us */
+
+.aboutUs {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 290px;
+    padding-right: 290px;
 }

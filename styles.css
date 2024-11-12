@@ -318,3 +318,227 @@ nav ul li a:hover {
     font-size: 18px;
     line-height: 27px;
 }
+
+/* Section Our Courses */
+
+.ourCourses {
+    padding-top: 100px;
+    padding-left: 290px;
+    padding-right: 290px;
+}
+
+.ourCoursesTitle {
+    font-family: 'Poppins', sans-serif;
+    color: #003366;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 63px;
+    margin-bottom: 20px;
+}
+
+.OfferContainer {
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: #003366;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+.OfferTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.OfferTitleImg {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.OfferTitleImg img {
+    width: 60px;
+    height: 60px;
+}
+
+.OfferTitleText {
+    font-family: 'Poppins ', sans-serif;
+    color: #003366;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.OfferDetailsLink a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #343434;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.OfferDetailsLink a img {
+    width: 40px;
+    height: 40px;
+}
+
+.notes {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 40px;
+}
+
+.notes img {
+    width: 24px;
+    height: 24px;
+}
+
+.hour {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 45px;
+    background-color: #EFF3F7;
+    padding: 10px 16px;
+}
+
+.hour p {
+    font-family: 'Roboto', sans-serif;
+    color: #343434;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.modules {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 45px;
+    background-color: #EFF3F7;
+    padding: 10px 16px;
+}
+
+.modules p {
+    font-family: 'Roboto', sans-serif;
+    color: #343434;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.online {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 45px;
+    background-color: #EFF3F7;
+    padding: 10px 16px;
+}
+
+.online p {
+    font-family: 'Roboto', sans-serif;
+    color: #343434;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.english {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 45px;
+    background-color: #EFF3F7;
+    padding: 10px 16px;
+}
+
+.english p {
+    font-family: 'Roboto', sans-serif;
+    color: #343434;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.mainProgramModelsTitle {
+    font-family: 'Roboto', sans-serif;
+    color: #003366;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 16px;
+}
+
+.secondaryProgramModelsTitle {
+    font-family: 'Roboto', sans-serif;
+    color: #343434;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 8px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.itemTxt {
+    font-family: 'Roboto', sans-serif;
+    color: #343434;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.priceContainer {
+    align-items: center;
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 40px; 
+    gap: 16px;
+}
+
+.priceLabel {
+    font-family: 'Roboto', sans-serif;
+    color: #003366;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.separator {
+    width: 2px;
+    height: 45px;
+    background-color: #003366;
+}
+
+.price {
+    font-family: 'Roboto', sans-serif;
+    color: #003366;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.joinBtn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FBFBFB;
+    background-color: #003366;
+    border-width: 0;
+    border-radius: 14px;
+    padding: 14px 85.5px;
+}

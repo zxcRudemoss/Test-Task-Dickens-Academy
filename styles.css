@@ -532,6 +532,7 @@ nav ul li a:hover {
 }
 
 .joinBtn {
+    cursor: pointer;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -708,6 +709,7 @@ nav ul li a:hover {
 }
 
 .carusel :nth-child(1), .carusel :nth-child(3) {
+    cursor: pointer;
     width: 32px;
     height: 32px;
 }
@@ -718,3 +720,235 @@ nav ul li a:hover {
     margin-left: 30px;
     margin-right: 30px;
 }
+
+/* Faq Section */
+
+.faq {
+    padding-top: 46px;
+    padding-left: 290px;
+    padding-right: 290px;
+    padding-bottom: 39px;
+}
+
+.faqContantContainer {
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faqContant {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.faqTitle {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 63px;
+    color: #003366;
+}
+
+.faqOpenText {
+    text-align: left;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 16px;
+    border-color: #003366;
+    padding: 40px;
+}
+
+.faqTitleAndImg {
+    display: flex;
+    justify-content: space-between;
+}
+
+.faqOpenTextTitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #343434;
+    padding-bottom: 30px;
+}
+
+.faqTitleAndImg img {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+.faqSeparatorLine {
+    width: 612px;
+    height: 1px;
+    background-color: #003366;
+    margin-bottom: 30px;
+    margin-right: 80px;
+}
+
+.faqOpenTextDescriptions {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.faqCloseText {
+    display: flex;
+    justify-content: space-between;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #003366;
+    border-radius: 16px;
+    padding: 30px 40px;
+}
+
+.faqCloseText p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #343434;
+    line-height: 30px;
+}
+
+.faqCloseText img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+/* .faqForm {
+    flex: 1 1 50%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 14px;
+    background-color: #003366;
+    margin-bottom: 20px;
+} */
+
+.faqForm {
+    flex: 1 1 50%; /* Займає половину ширини, якщо достатньо місця */
+    min-width: 300px; /* Мінімальна ширина */
+    background-color: #003366; /* Темно-синій фон */
+    color: #FBFBFB;
+    padding: 60px 60px;
+    border-radius: 14px;
+    height: 100%;
+  }
+  
+  .faqFormTitle {
+    text-align: center;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #FBFBFB;
+    padding-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .faqForm form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Відстань між полями */
+  }
+  
+  .faqForm input,
+  .faqForm textarea {
+    width: 100%;
+    padding: 18.5px 14px;
+    border-radius: 4px;
+    border-color: #ECECEC;
+    border-style: solid;
+    border-width: 1px;
+    color: #343434;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  
+  .faqForm input::placeholder,   
+  .faqForm textarea::placeholder {
+    font-family: 'Roboto', sans-serif;
+    color: #343434;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .faqForm textarea{
+    height: 114px;
+  }
+  
+  .faqForm button {
+    width: 235px;
+    height: 58px;
+    padding: 10px;
+    border: none;
+    background-color: #FBFBFB;
+    color: #003366;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .faqForm button:hover {
+    background-color: #ccc;
+  }
+
+  /* Footer */
+
+.footer {
+    padding: 32px 290px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-logo img {
+    max-height: 50px;
+  }
+  
+  .footer-copyright {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+    color: #003366;
+    text-align: center;
+    flex: 1;
+  }
+  
+  .footer-nav {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .footer-nav a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 16px;
+    font-size: 16px;
+    color: #343434;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .footer-nav a:hover {
+    color: #0056b3;
+  }
